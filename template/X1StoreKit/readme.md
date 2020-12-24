@@ -19,6 +19,8 @@ export default {
     methods: {
         onclick : function(){
             storeKit.review();
+            //OR 
+            storeKit.review("{应用的APPID}");
         }
     }
 }
