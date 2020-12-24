@@ -1,0 +1,34 @@
+{
+    "name": "AppStore评分",
+    "id": "Xty-StoreKit",
+    "version": "0.0.1",
+    "description": "AppStore评分",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "ios": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "Xty-StoreKit",
+                    "class": "X1StoreKtiMoudle" 
+                }
+            ],
+            "integrateType": "framework",
+            "hooksClass": "",
+            "frameworks": [
+                "StoreKit.framework"
+            ],
+            "resources": [
+            ],
+            "headers": [
+            ],
+            "privacies": [
+            ],
+            "deploymentTarget": "9.0",
+            "parameters": {
+            }
+        },
+        "android": {
+        }
+    }
+}
